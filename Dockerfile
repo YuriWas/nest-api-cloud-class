@@ -4,5 +4,5 @@ COPY . .
 RUN npm install -g @nestjs/cli
 RUN npm install --production
 RUN npm run build
-CMD ["npm" , "run", "start:prod"]
+CMD ["npm" , "run", "start"]
 EXPOSE 3000
